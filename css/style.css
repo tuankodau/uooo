@@ -1,0 +1,326 @@
+/* CSS Document */
+*{
+	margin: 0 ;
+	padding: 0 ;
+}
+#wrap{
+	width:100%;
+	position: relative;
+	background: url(../img/Tổng-hợp-các-hình-ảnh-background-đẹp-nhất-11.jpg);
+	background-size: cover;
+}
+.header{
+	width: 100%;
+	height: 100px;
+/*	position: absolute;*/
+/*	background: rgba(116,200,210,0.65)*/
+	position: fixed;
+	z-index: 10;
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+.header a:hover{
+	opacity: 0.8;
+}
+.material-icons-outlined{
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.logo{
+	width: 10%;
+	height: 100px;
+/*	background: rgba(255,255,0,0.40);*/
+	text-align: center;
+	float: left;
+	line-height: 100px;
+	
+}
+
+.logo a img{
+	text-decoration: none;
+	color: rgba(73,104,245,1.00);
+	font-size: 42px;
+	width: 100px;
+	border: 1px black solid;
+	border-radius: 20%;
+}
+.menu{
+	width: 80%;
+	height: 100px;
+	float: left;
+/*	background: rgba(154,239,247,0.48)*/
+}
+.menu ul{
+	width: 100%;
+	line-height: 100px;
+}
+.menu ul li{
+	list-style: none;
+	float: right;
+	margin-right: 100px;
+	font-family: 'Knewave', cursive;
+}
+.menu li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: rgba(255,255,255,0.87);
+}
+.port li a{
+	text-decoration: underline;
+}
+.icon{
+	width: 10%;
+	height: 100px;
+	float: left;
+	color: rgba(73,104,245,1.00);
+}
+.icon a{
+/*	color: rgba(73,104,245,1.00);*/
+	font-size: 24px;
+	line-height: 100px;
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+.main{
+	width: 100%;
+	position: relative;
+}
+.main a img{
+	width: 340px;
+	position: absolute;
+	top: 200px;
+	left: 100px;
+		
+}
+.main a img:hover{
+	opacity: 0.8;
+}
+.main img{
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	
+}
+.banner{
+	margin: 5px auto;
+	width: 80%;
+	height:100vh;
+	background: url(../img/persona-5-joker-wallpaper-2048x1152_49.jpg);
+/*	overflow: hidden;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.banner img{
+	width: 500px;
+	position: fixed;
+	width: 200px;
+	bottom: 50px;
+	right: 150px;
+	z-index: 5;
+}
+.banner span img{
+	width: 100px;
+	z-index: 4;
+	position: fixed;
+	bottom: 150px;
+	right: 300px;
+	animation: zzz 4s 2s infinite linear;
+}
+@keyframes zzz{
+	0%{
+		background: url(../img/cc.jpg);
+		transform: rotate(15deg)
+	}
+	25%{
+		background: url(../img/cc.jpg);
+		transform: rotate(20deg);
+		transform: translatex(5px)
+	}
+	50%{
+		background: url(../img/cc.jpg);
+		transform: rotate(-15deg)
+	}
+	75%{
+		background: url(../img/cc.jpg);
+		transform: rotate(-5deg);
+		transform: translate(2px);
+	}
+	100%{
+		background: url(../img/cc.jpg);
+		transform: rotate(2deg)
+	}
+}
+.textx{
+	width:50%;
+	height: 600px;
+	float: right;
+	margin-top: 170px;
+	margin-right: 150px;
+	background: blue;
+}
+
+.san img{
+	width: 340px;
+	position: absolute;
+	top: 230px;
+	right: 550px;
+	animation: san 4s 1s infinite linear;
+	animation-direction: alternate;
+}
+@keyframes san{
+	from{
+		transform: scale(1);
+		transform: rotate(10deg)
+			
+	}
+	to{
+		transform: scale(1.2);
+		transform: rotate(-10deg)
+	}
+}
+.banner h1{
+	width: 50%;
+	height: 500px;
+	text-align: left;
+	float: right;
+}
+.page1{
+	width: 80%;
+	height: 100vh;
+	margin: 0 auto;
+	background: url(../img/thumb-1920-429565.jpg);
+	
+}
+.page1 ul{
+	width: 30%;
+/*	background: blue;*/
+	padding-left: 60px;
+	padding-top: 50px;
+}
+.page1 ul li{
+	list-style: none;
+	padding: 10px;
+	font-style: italic;
+	font-size: 26px;
+	color: #490405;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.page1 li p{
+	font-size: 16px;
+	width: 200px;
+}
+.page1 h2{
+	font-size: 34px;
+	color: #490405;
+	padding-top: 30px;
+	padding-left: 47px;
+	font-family: 'Knewave', cursive;
+}
+.page2{
+	margin: 5px auto;
+	width: 80%;
+	height: 100vh;
+/*	background: url(../../ID kt/img/Dn3lAm.jpg);*/
+	background: url(../img/astar.jpg),url(../img/112.png);
+	background-size: cover;
+	background-attachment: fixed,scroll;
+	z-index: 1,12;
+}
+
+.page2 h1{
+	width: 30%;
+	
+}
+.page3{
+	margin: 0 auto;
+	width: 80%;
+	height: 100vh;
+	background: url(../img/hinh-anh-dau-kho-vi-tinh-yeu-tan-vo_030519057.jpg);
+	background-size: cover;
+}
+.page3 h2{
+	width: 30%;
+	height: 100px;
+	color: #490405;
+	background: rgba(0,0,0,1.00);
+	font-size: 34px;
+	padding-top: 30px;
+	padding-left: 47px;
+}
+.page3 ul {
+	width: 60%;
+}
+.page3 ul li{
+	list-style: none;
+	padding: 20px 70px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.page3 li img{
+	width: 50px;
+	animation: adobe 6s  infinite linear;
+	animation-direction: alternate;
+}
+@keyframes adobe{
+	0%{
+		transform: translateX(2px,2px);
+		transform: rotate(10deg)
+	}
+	25%{
+		transform: translate(-2px,-4px);
+		transform: rotate(-10deg)
+	}
+	50%{
+		transform: translate(2px,4px);
+		transform: rotate(12deg)
+	}
+	75%{
+		transform: translate(-2px);
+		transform: rotate(-10deg)
+	}
+	100%{
+		transform: translate(2px);
+		transform: rotate(10deg)
+	}
+}
+.page3 li span{
+	font-size: 22px;
+	color: white;
+	padding-left: 60px;
+}
+.page4{
+	margin: 5px auto;
+	width: 80%;
+	height: 200px;
+	background: url(../img/1.jpg);
+}
+.page4 a img{
+	width: 100px;
+	margin-left: 200px;
+	float: left;
+}
